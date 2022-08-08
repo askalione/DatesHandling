@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DatesHandling.ApplicationServices.Interfaces\DatesHandling.ApplicationServices.Interfaces.csproj" />
+    <ProjectReference Include="..\DatesHandling.DataAccess.Interfaces\DatesHandling.DataAccess.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
