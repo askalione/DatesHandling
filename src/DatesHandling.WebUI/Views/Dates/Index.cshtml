@@ -1,0 +1,12 @@
+﻿@using DatesHandling.WebUI.Models.Dates
+@model BarVm
+
+<div>
+    <strong>Database date value:</strong> @Model.Timestamptz.ToString("dd.MM.yyyy HH:mm")
+</div>
+<div>
+    <strong>ToLocalTime() date value:</strong> @Model.Timestamptz.ToLocalTime().ToString("dd.MM.yyyy HH:mm")
+</div>
+<div>
+    <strong>Russian TZ date value:</strong> @TimeZoneInfo.ConvertTimeFromUtc(Model.Timestamptz, TimeZoneInfo.FindSystemTimeZoneById("Russian Standard Time")).ToString("dd.MM.yyyy HH:mm")
+</div>

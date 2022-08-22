@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DatesHandling.ApplicationServices.Interfaces\DatesHandling.ApplicationServices.Interfaces.csproj" />
+    <ProjectReference Include="..\DatesHandling.ApplicationServices\DatesHandling.ApplicationServices.csproj" />
+    <ProjectReference Include="..\DatesHandling.DataAccess.Interfaces\DatesHandling.DataAccess.Interfaces.csproj" />
+    <ProjectReference Include="..\DatesHandling.DataAccess.PostgreSql\DatesHandling.DataAccess.PostgreSql.csproj" />
+    <ProjectReference Include="..\DatesHandling.Entities\DatesHandling.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

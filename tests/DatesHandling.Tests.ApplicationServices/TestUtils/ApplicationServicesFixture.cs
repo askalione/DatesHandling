@@ -8,7 +8,7 @@ namespace DatesHandling.Tests.ApplicationServices.TestUtils
 {
     public class ApplicationServicesFixture : IDisposable
     {
-        private const string ConnectionString = @"Host=localhost;Port=5432;Database=tests_dates_handling;Username=some_user;Password=some_password";
+        private const string ConnectionString = @"Host=localhost;Port=5432;Database=dates_handling;Username=some_user;Password=some_password";
 
         private readonly IServiceProvider _serviceProvider;
 
